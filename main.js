@@ -55,7 +55,7 @@ const fiveHeadsAsync = new Promise((resolve, reject) => {
                 headsCount = 0;
             }
         }
-        // **** Resole Or Reject Promise ****
+        // **** Resolve Or Reject Promise ****
         if (attempts < 100000000) {
             resolve (`It took ${attempts} tries to flip 25 "heads" in a row`);
         } else {
